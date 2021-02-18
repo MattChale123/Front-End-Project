@@ -16,11 +16,15 @@
   margin: 5px;
   background-color: lightgray;
 }
+<<<<<<< HEAD
 .row{
   display: flex;
   flex-direction: column;
   width: 50%;
 }
+=======
+
+>>>>>>> 389259815a4f414f8ef802805ac5260c89a5ce83
 
 .sidebar {
 	display: flex;
