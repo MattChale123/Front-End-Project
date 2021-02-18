@@ -1,9 +1,9 @@
 .h1{
-    justify-content: center;
-    text-align: center;
+  justify-content: center;
+  text-align: center;
 }
 .main-body{
-    background-color: aliceblue;
+  background-color: aliceblue;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position-x: center;
@@ -11,12 +11,20 @@
     margin: 20px;
 }
 .col-sm{
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-    background-color: lightgray;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  background-color: lightgray;
 }
+<<<<<<< HEAD
+.row{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+=======
 
+>>>>>>> 389259815a4f414f8ef802805ac5260c89a5ce83
 
 .sidebar {
 	display: flex;
@@ -37,8 +45,17 @@
 	text-align: left;
 	font-family: 'Courier New', Courier, monospace;
 	color: black;
-    border: 1px solid black;
+  border: 1px solid black;
 }
 .submit {
-    float: left;
+  float: left;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+
+}
+
+@media only screen and (min-width: 375px) {
+
 }
