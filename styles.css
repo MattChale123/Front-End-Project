@@ -16,11 +16,7 @@
     margin: 5px;
     background-color: lightgray;
 }
-.row{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
+
 
 .sidebar {
 	display: flex;
