@@ -42,3 +42,53 @@
 .submit {
     float: left;
 }
+
+.splash{
+	position: fixed;
+	top: 250px;
+	left: 300px;
+	width: 400px;
+	height: 40px;
+	background:black;
+	z-index: 200;
+	color: white;
+	text-align: center;
+	line-height: 90vh;
+
+	
+}
+.splash.display-none{
+	position: fixed;
+	opacity: 0;
+	padding: 50px;
+	top: 25px;
+	left: 15px;
+	width: 100px;
+	height: inherit;
+	background:black;
+	z-index: -10;
+	color: white;
+	text-align: center;
+	line-height: 90vh;
+	transition: all 0.5s;
+}
+
+@keyframes fadeIn{
+	to{
+		opacity: 1;
+	}
+}
+@keyframes fadeOut{
+	to{
+		opacity: 0;
+	}
+}
+
+.fade-in{
+	opacity: 0;
+	animation: fadeIn 1s ease-in forwards;
+}
+.fade-out{
+	opacity: 1;
+	animation: fadeOut 1s ease-in forwards;
+}
